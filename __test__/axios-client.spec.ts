@@ -1,7 +1,7 @@
 import AxiosClient from "../src/axios-client";
 import { v4 as uuid } from "uuid";
 
-describe("tests on lib @airfox/message-queue", () => {
+describe("tests on axios client", () => {
   it("Should return axios with successfully loggin", async () => {
     const headers = {
       "content-type": "application/json",
